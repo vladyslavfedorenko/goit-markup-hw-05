@@ -454,7 +454,7 @@ img {
 
 .button-close {
     border: 1px solid #0000001A;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 24px;
     height: 24px;
     margin-left: auto;
@@ -462,6 +462,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 24px;
+    right: 24px;
 }
 
 .modal-overlay {
@@ -490,6 +493,7 @@ img {
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 408px;
 }
 
 .modal-label {
