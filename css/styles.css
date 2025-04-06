@@ -728,13 +728,18 @@ img {
 }
 
 .footer-input {
-    background-color: #2E2F42;
+    background-color: transparent;
     width: 246px;
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     color: #FFFFFF;
     margin-right: 24px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
@@ -743,7 +748,6 @@ img {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    padding-left: 16px;
     padding-top: 8px;
 }
 
@@ -753,10 +757,11 @@ img {
 
 .form-content {
     display: flex;
+    gap: 24px;
 }
 
 .subscribe-button {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 4px;
@@ -770,6 +775,7 @@ img {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-family: "Roboto",sans-serif;
 }
 
 .footer-send-icon {
