@@ -648,11 +648,12 @@ img {
 .lala:checked + .modal-checkbox .checkbox-icon {
     background-color: #404bbf;
     border: none;
-}
-
-.lala:checked + .modal-checkbox .icon-checkbox {
     fill: #F4F4FD;
 }
+
+/* .lala:checked + .modal-checkbox .icon-checkbox {
+    fill: #F4F4FD;
+} */
 
 .button-send {
     background-color: #4D5AE5;  
