@@ -569,13 +569,14 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    padding: 8px 16px;
+    /* padding: 8px 16px; */
 }
 
 #user-comment {
     padding-left: 0;
     resize: none;
     height: 120px;
+    padding: 8px 16px;
 }
 
 .input-block {
@@ -606,6 +607,7 @@ img {
 
 .checkbox-icon {
     height: 16px;
+    width: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -749,7 +751,7 @@ img {
     margin-left: auto;
 }
 
-.subscribe-content {
+.form-content {
     display: flex;
 }
 
