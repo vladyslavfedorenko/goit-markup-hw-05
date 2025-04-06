@@ -461,22 +461,22 @@
         <div class="subscribe-block">
           <p class="footer-title">Subscribe</p>
           <form class="form-content" action="/">
-            <label class="footer-label" for="">
-            <!-- <div class="subscribe-content"> -->
+            <label class="footer-label" for="user-email">
+              <!-- <div class="subscribe-content"> -->
               <input
                 class="footer-input"
                 type="email"
                 name="e-mail"
+                id="user-email"
                 placeholder="E-mail"
               />
-              </label>
-              <button class="subscribe-button" type="submit">
-                Subscribe
-                <svg class="footer-send-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="footer-send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -544,19 +544,23 @@
           </div>
           <div class="label-input checkbox-block">
             <input
-              class="checkbox-input"
+              class="visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
             />
-            <label class="modal-checkbox" for="user-privacy"
-              >I accept the terms and conditions of the
+            <label class="modal-checkbox" for="user-privacy">
               <span class="checkbox-icon">
                 <svg class="icon-checkbox" width="10" height="8">
                   <use href="./images/icons.svg#icon-chacked"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <!-- <span class="checkbox-icon">
+                <svg class="icon-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chacked"></use>
                 </svg>
-              </span>
+              </span> -->
               <a class="link-privacy-policy">Privacy Policy</a>.
             </label>
           </div>
