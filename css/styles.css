@@ -645,6 +645,15 @@ img {
     margin-bottom: 24px;
 }
 
+.lala:checked + .modal-checkbox .checkbox-icon {
+    background-color: #404bbf;
+    border: none;
+}
+
+.lala:checked + .modal-checkbox .icon-checkbox {
+    fill: #F4F4FD;
+}
+
 .button-send {
     background-color: #4D5AE5;  
     color: #FFFFFF;
@@ -729,7 +738,7 @@ img {
 
 .footer-input {
     background-color: transparent;
-    width: 246px;
+    width: 264px;
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
