@@ -760,11 +760,9 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
-.accept-text {
-    margin-left: 8px;
-}
 
 .link-privacy-policy {
     color: #4D5AE5;
