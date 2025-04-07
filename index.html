@@ -462,7 +462,6 @@
           <p class="footer-title">Subscribe</p>
           <form class="form-content" action="/">
             <label class="footer-label" for="user-email">
-              <!-- <div class="subscribe-content"> -->
               <input
                 class="footer-input"
                 type="email"
@@ -482,7 +481,7 @@
       </div>
     </footer>
     <!-- modal window -->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button class="button-close" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -556,13 +555,10 @@
                   <use href="./images/icons.svg#icon-chacked"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <!-- <span class="checkbox-icon">
-                <svg class="icon-checkbox" width="10" height="8">
-                  <use href="./images/icons.svg#icon-chacked"></use>
-                </svg>
-              </span> -->
-              <a class="link-privacy-policy">Privacy Policy</a>.
+              <div class="accept-text">
+                I accept the terms and conditions of the
+                <a class="link-privacy-policy">Privacy Policy</a>.
+              </div>
             </label>
           </div>
           <button class="button-send" type="button">Send</button>
